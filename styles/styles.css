@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+	margin: 0;
+	font-family: 'Roboto Mono', monospace;
+}
+
+	.clear {
+		clear: both;
+	}
+
+	.pad{
+		height: 5vh;
+	}
+
+	.name{
+		color: white;
+		background: black;
+		padding-left: 10px;
+	}
+
+	.description{
+		color: black;
+		padding-left: 15px;
+		width: 20vw;
+		font-size: 12px;
+	}
+
+
+/*LEFT INDEX*/
+
+	.index{
+		position: fixed;	
+		float: left;
+		z-index: 99;
+	}
+
+	.index nav{
+		width: 15vw;
+		height: 30vh;
+		font-size: 30px;
+		color: black;
+	}
+
+	.index nav li{
+		list-style-type: none;
+	}
+
+	.container{
+
+		margin: 2vw;
+		width: 30vw;
+		height: 0vh;
+		background-color: gold;
+		position: relative;
+		transition: height 1s; 
+	}
+
+	.container:hover{
+		height: 50vh;
+	}
+
+	.container ul{
+		font-size: 20px;
+	}
+
+
+/*PROJECT LIST*/
+
+	.projectlist{
+		/*background-color: white;*/
+		width: 70vw;
+		height: 100vh;
+		padding-right: 5vw;
+		position: relative;
+		float: right;
+	}
+
+	.projectlist nav{
+		align-content: left;
+		text-align: left;
+		z-index: 20; 
+	}
+
+	.projectlist nav li{
+		list-style-type: decimal-leading-zero;
+		padding-left: 5vw;
+		font-size: 30px;
+	}
+
+
+	.sublist{
+		text-decoration: none;
+		color: black;
+		background-color: none;
+		font-size: 50px;
+		padding: 13px;
+
+	}
+
+	.sublist:hover{
+		background-color: goldenrod;
+		color: white;
+	}
+
+	.sublist img{
+		display: none;
+		z-index: 1;
+	}
+
+	.sublist:hover img{
+		display:inline-grid;
+		width:30vw;
+		margin-bottom: 4vh; 
+		position: absolute;
+/*		top:50vh;
+		left:50vw;*/
+	}
+
+/*ABOUT*/
+	.right-column{
+		background-color: white;
+		width: 70vw;
+		height: 100vh;
+		padding-right:5vw;
+		position: relative;
+		float: right;
+	}
+
+	.right-column img{
+		width: 50vw;
+	}
+
+	.right-column p{
+		width: 40vw;
+	}
+
+
+	
+
