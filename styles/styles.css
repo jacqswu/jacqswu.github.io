@@ -31,7 +31,7 @@ body {
 /*LEFT INDEX*/
 
 	.index{
-		position: fixed;	
+		position: fixed;
 		float: left;
 		z-index: 99;
 	}
@@ -54,7 +54,7 @@ body {
 		height: 0vh;
 		background-color: gold;
 		position: relative;
-		transition: height 1s; 
+		transition: height 1s;
 	}
 
 	.container:hover{
@@ -70,17 +70,19 @@ body {
 
 	.projectlist{
 		/*background-color: white;*/
-		width: 70vw;
+		width: 100vw;
 		height: 100vh;
-		padding-right: 5vw;
+		/* padding-right: 5vw; */
 		position: relative;
-		float: right;
+		float: none;
+		text-align: center;
+		vertical-align: middle;
 	}
 
 	.projectlist nav{
 		align-content: left;
 		text-align: left;
-		z-index: 20; 
+		z-index: 20;
 	}
 
 	.projectlist nav li{
@@ -112,7 +114,7 @@ body {
 	.sublist:hover img{
 		display:inline-grid;
 		width:30vw;
-		margin-bottom: 4vh; 
+		margin-bottom: 4vh;
 		position: absolute;
 /*		top:50vh;
 		left:50vw;*/
@@ -135,7 +137,3 @@ body {
 	.right-column p{
 		width: 40vw;
 	}
-
-
-	
-
