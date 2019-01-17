@@ -2,26 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 body {
-	margin: 15vw;
-	background-color: #060AFF;
+	margin: 0;
 	/* font-family: 'Roboto Mono', monospace; */
 	font-family: 'Garamond';
-	color: white;
-
 }
-
-	.construction {
-		width: 75vw;
-		height: 0vh;
-	}
-
-h1 {
-	font-size: 50px;
-}
-p {
-	font-size: 28px;
-}
-
 
 	.clear {
 		clear: both;
