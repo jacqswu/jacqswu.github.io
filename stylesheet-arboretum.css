@@ -180,7 +180,7 @@ body {
 .entry a, a:visited {
     text-decoration: none;
     position: relative;
-    color: #fff;
+    color: #F0F0F0;
 }
 
 .entry a:after, a:visited:after {
@@ -196,7 +196,7 @@ body {
 
 .entry a:hover:after, a:visited:hover:after {
   	height: 100%;
-    color: #fff;
+    color: #F0F0F0;
 }
 
 /* Original <.entry a> CSS  */
