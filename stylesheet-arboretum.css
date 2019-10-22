@@ -173,6 +173,35 @@ body {
 }
 
 .entry a {
+	color: #00ff00;
+	/*text-decoration: underline;*/
+}
+
+.entry a, a:visited {
+    text-decoration: none;
+    position: relative;
+    color: #fff;
+}
+
+.entry a:after, a:visited:after {
+    content: '';
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 255, 0, 0.95);
+    transition: 0.3s;
+}
+
+.entry a:hover:after, a:visited:hover:after {
+  	height: 100%;
+    color: #fff;
+}
+
+/* Original <.entry a> CSS  */
+
+/* .entry a {
   color: #00ff00;
 }
 
@@ -185,7 +214,7 @@ body {
 .entry a:active {
   background: #000000;
   color: #F0F0F0;
-}
+} */
 
 .project_title {
   font-family: Helvetica, Arial, sans-serif;
